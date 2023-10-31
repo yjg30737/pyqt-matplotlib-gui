@@ -8,4 +8,6 @@ PyQt matplotlib GUI
 * seaborn
 
 ## Preview
-![image](https://github.com/yjg30737/pyqt-matplotlib-gui/assets/55078043/3db913cf-0bcd-4c4f-a73f-ae9be1b4306d)
+![image](https://github.com/yjg30737/pyqt-matplotlib-gui/assets/55078043/1572b757-1c68-43b5-830b-52b244e5e050)
+![image](https://github.com/yjg30737/pyqt-matplotlib-gui/assets/55078043/c997c096-0503-4b2f-a63b-e25543f8ffc0)
+
