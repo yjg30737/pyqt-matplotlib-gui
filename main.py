@@ -52,7 +52,6 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(mainWidget)
 
-        # 처음 그림을 그릴 때 기본적으로 첫 번째 컬럼을 사용
         self.__setHist(self.__df.columns[0])
 
     def updatePlot(self):
@@ -60,10 +59,8 @@ class MainWindow(QMainWindow):
         self.__setHist(selected_column)
 
     def __setHist(self, column_name):
-        # 이전 그림 지우기
         self.__axis.clear()
 
-        # 선택된 컬럼을 기반으로 히스토그램 그리기
         self.__axis.hist(
             x=[self.__df[self.__df.diabetes == 0][column_name], self.__df[self.__df.diabetes == 1][column_name]],
             bins=30, histtype='barstacked', label=['normal', 'diabetes'])
